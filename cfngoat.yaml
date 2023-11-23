@@ -667,6 +667,8 @@ Resources:
    ########################
    ### Clean S3 Buckets ###
    ########################
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: True
   CleanupRole:
     Type: AWS::IAM::Role
     Properties:
